@@ -9,4 +9,4 @@ Deliverable 1: Add Tectonic Plate Data
 Deliverable 2: Add Major Earthquake Data
 ![](Images/Satellite.png)
 Deliverable 3: Add an Additional Map
-![]Images/Streets.png
+![](Images/Streets.png)
