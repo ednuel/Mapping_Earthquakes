@@ -13,4 +13,6 @@ Deliverable 3: Add an Additional Map
 
 
 # Challenge Summary
-### The biggest Challenge I had with this project was how to seperate the layers, streets satellite, and dark layer. Another challenge was adding major earthquakes to the the other layers
+### The biggest Challenge I had with this project was how to seperate the layers, streets satellite, and dark layer. Another challenge was adding major earthquakes to the the other layers. Also; remembering to change the index.html to
+<script type="text/javascript" src="Earthquake_Challenge/static/js/Challenge_logic.js"></script> 
+### or whatever you file name is.
