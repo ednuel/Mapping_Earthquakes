@@ -15,17 +15,17 @@ let satelliteStreets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/
     id: 'mapbox/satellite-streets-v11',
     accessToken: API_KEY});
 
-let light = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+let Dark = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
-    id: 'mapbox/light-v10',
+    id: 'mapbox/dark-v10',
     accessToken: API_KEY});
 
 // define an object of base tile layers group
 let baseMaps = {
     "Streets": street,
     "Satellite": satelliteStreets,
-    "Light": light
+    "Dark": Dark
 };
 
 //declare overlays layer group 
