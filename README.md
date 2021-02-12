@@ -10,3 +10,7 @@ Deliverable 2: Add Major Earthquake Data
 ![](Images/Satellite.png)
 Deliverable 3: Add an Additional Map
 ![](Images/Streets.png)
+
+
+# Challenge Summary
+### The biggest Challenge I had with this project was how to seperate the layers, streets satellite, and dark layer. Another challenge was adding major earthquakes to the the other layers
